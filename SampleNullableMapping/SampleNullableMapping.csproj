@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+   <PropertyGroup>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <Nullable>enable</Nullable>
+      <TargetFramework>net10.0</TargetFramework>
+   </PropertyGroup>
+
+   <ItemGroup>
+      <PackageReference Include="Riok.Mapperly"
+                        IncludeAssets="compile; build; native; contentfiles; analyzers; buildtransitive"
+                        PrivateAssets="all"
+                        Version="5.0.0-next.11"/>
+   </ItemGroup>
+
+   <ItemGroup>
+      <Using Include="Riok.Mapperly.Abstractions"/>
+   </ItemGroup>
+
+</Project>
